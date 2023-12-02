@@ -1,0 +1,11 @@
+.giftSection {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90vh;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.disabled {
+}

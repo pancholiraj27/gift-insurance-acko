@@ -1,0 +1,46 @@
+.receiversQuestion {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.receiversQuestion ol div {
+  display: flex;
+  align-items: center;
+}
+
+.receiversQuestion ol div span {
+  background-color: #e7e7f0;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.highlighted {
+  background-color: #0fa457 !important;
+  color: white;
+}
+.highlightedBorder {
+  border-right: 2px solid #0fa457;
+}
+
+.receiversQuestion ol li {
+  display: flex;
+  align-items: center;
+  width: 199px;
+  padding: 16px 24px;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-primary, #040222);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+/* .highlighted {
+  border-right: 1px solid #0fa457;
+} */
+
+/* detailsCheck.module.css */

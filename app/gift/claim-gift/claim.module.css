@@ -1,0 +1,48 @@
+.claimGift {
+  background-color: #f8f7fc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.claimImg {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.claimImg img {
+  width: 25%;
+}
+
+.inputFiledClaim {
+  width: 25%;
+  margin-bottom: 20px;
+  position: relative;
+  margin-top: 40px;
+}
+
+.claimButton {
+  position: absolute;
+  background-color: #0fa457;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}

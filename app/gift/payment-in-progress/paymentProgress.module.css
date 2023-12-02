@@ -1,0 +1,56 @@
+.background {
+  background-color: #f8f7fc;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.paymentProcess {
+  width: 560px;
+  height: 416px;
+  stroke-width: 1px;
+  background-color: white;
+  stroke: var(--line-primary, #e7e7f0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.paymentImgDiv {
+  width: 150px;
+  height: 150px;
+}
+
+.paymentImgDiv img {
+  width: 150px;
+  height: 150px;
+}
+
+.paymentDetails {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.paymentDetails h1 {
+  color: var(--text-primary-n-600, #040222);
+  text-align: center;
+  /* Title/T1 (22) */
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 145.455% */
+}
+.paymentDetails p {
+  color: var(--text-secondary-n-400, #5b5675);
+
+  /* Paragraph / P2 (14) */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
